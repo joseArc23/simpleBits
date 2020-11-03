@@ -21,3 +21,6 @@ light color: #999999
 
 
 20% off next order background #f5f4f2
+
+link to the gallery
+https://postimg.cc/gallery/1gQH8sW
