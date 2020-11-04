@@ -145,5 +145,45 @@ main {
   color: var(--color-text);
   display: inline-block;
   font-size: 1.4rem;
-
 }
+
+/* --font-section-- */
+
+.fonts h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Merriweather', serif;
+}
+
+/* font container */
+.fonts .fonts__container {
+  min-width: 280px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+ /*  justify-content: space-evenly; */
+}
+
+/* font-item */
+
+.fonts .fonts__container .font__item {
+  min-width: 128px;
+  min-height: 209px;
+  width: 45%;
+  max-width: 342px;
+  /* breakpoint 750px */
+}
+
+.fonts .fonts__container .font__item:nth-child(1) {
+/*   background-color: red; */
+  margin-right: 7vw;
+}
+
+.font__item .font__item-link img {
+  width: 100%;
+  min-width: 128px;
+  display: block;
+}
+
+
