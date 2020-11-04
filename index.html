@@ -4,34 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Bits &copy;</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <header>
-    <img src="" alt="logo-simpleBits">
-    <div>
-      <a href="#">user</a>
-      <a href="#">market</a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">HOME</a>
-          </li>
-          <li>
-            <a href="#">SHOP</a>
-          </li>
-          <li>
-            <a href="#">WORK</a>
-          </li>
-          <li>
-            <a href="#">BOOKS</a>
-          </li>
-          <li>
-            <a href="#">ABOUT</a>
-          </li>
-        </ul>
-      </nav>
+    <div class="header__logo">
+      <a href="#"><img src="https://i.postimg.cc/CxW4dzCx/logo-header.png" alt="logo-simpleBits" class="header__img"></a>
     </div>
+    <div class="header__user-container">
+      <a href="#"><img src="https://i.postimg.cc/mDHmMNPc/user.png" alt="user image" class="header__icon"></a>
+      <a href="#"><img src="https://i.postimg.cc/7LcBfQZ8/shopping-bag.png" alt="shopping bag" class="header__icon"></a>
+      <a href="#"><img src="https://i.postimg.cc/MKC36LHC/hamburger.png" alt="hamburger menu" class="header__icon"></a>
+    </div>
+    <nav class="header__nav header__nav--hidden">
+      <ul>
+        <li>
+          <a href="#" class="header__link">HOME</a>
+        </li>
+        <li>
+          <a href="#" class="header__link">SHOP</a>
+        </li>
+        <li>
+          <a href="#" class="header__link">WORK</a>
+        </li>
+        <li>
+          <a href="#" class="header__link">BOOKS</a>
+        </li>
+        <li>
+          <a href="#" class="header__link">ABOUT</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main>
     <!-- slider -->
