@@ -302,3 +302,19 @@ main {
   display: block;
   margin-top: .5em;
 }
+
+/* insta-feed */
+
+.insta-feed__container {
+  display: flex;
+  max-width: 750px;
+  margin: 0 auto 4em;
+}
+
+.insta-feed__container .insta-feed__link img {
+  width: 100%;
+  display: block;
+}
+
+/* --subscribe-section-- */
+
