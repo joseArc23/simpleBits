@@ -16,15 +16,28 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Lora', serif;
 }
 
+a {
+  text-decoration: none;
+}
 /* 
-  font-family: 'Lora', serif;
   font-family: 'Merriweather', serif;
 */
+
+/* -- Header -- */
 header {
   width: 100%;
   height: 70px;
+  position: relative;
+  /* margin-bottom: 260px; */ /* valor a cambiar con el nav */
+  background-color: var(--background-white);
+}
+
+.header__logo {
+  float: left;
+  padding: 20px 5px 20px 15px;
 }
 
 .header__logo .header__img {
@@ -35,4 +48,39 @@ header {
 .header__user-container .header__icon {
   width: 20px;
   height: 20px;
+}
+
+header .header__user-container {
+  float: right;
+  padding: 22px 15px 22px 5px;
+}
+
+.header__user-container a {
+  display: inline-block;
+  margin-left: 1.6em;
+}
+
+/* --nav-- */
+
+header .header__nav {
+  float: right;
+  display: none;
+  width: 100%;
+  height: auto;
+}
+.header__nav li {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header__nav .header__link {
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: .1em;
+  display: block;
+  color: var(--color-text);
+  padding: 15px 20px;
+}
+
+.header__nav.header__nav--active {
+/*   display: block; */
 }
