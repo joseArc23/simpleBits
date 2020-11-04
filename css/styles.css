@@ -175,7 +175,7 @@ main {
   min-width: 128px;
   min-height: 209px;
   width: 45%;
-  max-width: 342px;
+  max-width: 272px;
   /* breakpoint 750px */
   text-align: center;
 }
@@ -201,5 +201,52 @@ main {
   color: var(--color-text-light);
   display: block;
   margin-top: .5em;
+}
+
+/* twenty bits book */
+.main-book {
+  min-width: 285px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-book .main-book__img-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main-book .main-book__img-container img {
+  width: 100%;
+  display: block;
+}
+
+.main-book .main-book__info {
+  color: var(--color-text);
+}
+.main-book .main-book__info h2 {
+  font-size: 2.6rem;
+  margin-bottom: .5em;
+
+}
+.main-book .main-book__info p {
+  font-family: var(--font-merriweather);
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+  margin-bottom: 1em;
+}
+
+/* botton learn more */
+
+.main-book .main-book__info .main-book__button {
+  display: inline-block;
+  background-color: var(--color-text);
+  color: var(--background-white);
+  border-radius: 2px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: .3em .5em;
+  letter-spacing: .1em;
+  font-family: var(--font-lora);
 }
 
