@@ -353,3 +353,55 @@ main {
   max-width: 150px;
 }
 
+/* footer */
+
+footer {
+  text-align: center;
+  padding-top: 3em;
+}
+
+footer .footer-nav,
+.footer-nav .footer__link-container {
+  margin-bottom: 4em;
+}
+
+
+/* follow us---- */
+
+.footer-nav .footer__link-container .footer__follow-us-container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.footer-nav .footer__link-container .footer__follow-us-container li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+.footer__link-container .follow-us-logo {
+  width: 100%;
+}
+/* ----------- */
+
+.footer-nav .footer__link-container h4,
+.footer-shop h4 {
+  color: var(--color-text);
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  font-family: var(--font-merriweather);
+  margin-bottom: .5em;
+}
+.footer__link-container ul li,
+.footer-shop ul li {
+  padding-bottom: .5em;
+}
+
+.footer-nav .footer__link-container .footer__link-item,
+.footer-shop .footer__link-item {
+  color: var(--color-text);
+  font-size: 1.6rem;
+}
+
