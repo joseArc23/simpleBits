@@ -385,6 +385,10 @@ footer .footer-nav,
 }
 /* ----------- */
 
+.footer-shop {
+  margin-bottom: 4em;
+}
+
 .footer-nav .footer__link-container h4,
 .footer-shop h4 {
   color: var(--color-text);
@@ -405,3 +409,57 @@ footer .footer-nav,
   font-size: 1.6rem;
 }
 
+/* footer logo container */
+footer .footer-logo-container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 300px; /* valor por cambiar */
+}
+
+footer .footer-logo-container a {
+  margin: 0 auto 1.4em;
+  width: 180px;
+  height: 35px;
+  display: block;
+}
+footer .footer-logo-container a img {
+  width: 100%;
+  display: block;
+}
+
+footer .footer-logo-container p {
+  font-size: 1.8rem;
+  font-family: var(--font-lora);
+  color: var(--color-text);
+  margin-bottom: 1.3em;
+}
+footer .footer-logo-container .footer__button {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: .1em;
+  background-color: var(--background-white);
+  border: 1px solid #bbb;
+  color: var(--color-text);
+  line-height: 3rem;
+  border-radius: 2px;
+}
+
+.footer-miselanius__info {
+  width: 90%;
+  margin: 3em auto 0;
+  font-size: 1.6rem;
+  color: var(--color-text);
+}
+
+.footer-miselanius__logo {
+  width: 120px;
+  height: 50px;
+  display: block;
+  margin: 2em auto 2em;
+}
+
+.footer-miselanius__logo img {
+  width: 100%;
+  display: block;
+}
