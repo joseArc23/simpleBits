@@ -84,3 +84,66 @@ header .header__nav {
 .header__nav.header__nav--active {
 /*   display: block; */
 }
+
+main {
+  min-width: 320px;
+}
+
+/* --slider-- */
+.main-slider {
+  width: 100%;
+  max-height: 520px;
+  margin-bottom: 15px;
+}
+
+/* contendor banner */
+.main-slider .main-slider-container {
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  width: 100%;
+  min-height: 107px;
+}
+
+/* item */
+.main-slider-container .main-slider-container__item {
+  scroll-snap-align: center;
+  width: 100%;
+  min-width: 320px;
+}
+
+.main-slider-container__item a {
+  display: block;
+}
+
+.slider__img {
+  width: 100%;
+  display: block;
+}
+.main-slider__buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* --tag-section-- */
+
+.main-tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-weight: bolder;
+  justify-content: center;
+  /* flex-direction: column; */
+/*   font-family: 'Merriweather', serif; */
+}
+.main-tags ul li {
+  margin: 0 10px 5px 10px;
+}
+
+.main-tags .main-tags__item {
+  color: var(--color-text);
+  display: inline-block;
+  font-size: 1.4rem;
+
+}
