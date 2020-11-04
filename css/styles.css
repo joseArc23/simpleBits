@@ -127,6 +127,9 @@ main {
 }
 
 /* --tag-section-- */
+.main-tags {
+  margin-bottom: 1.5em;
+}
 
 .main-tags ul {
   display: flex;
@@ -153,6 +156,7 @@ main {
   text-align: center;
   font-size: 3rem;
   font-family: 'Merriweather', serif;
+  margin-bottom: 1.5em;
 }
 
 /* font container */
@@ -173,6 +177,7 @@ main {
   width: 45%;
   max-width: 342px;
   /* breakpoint 750px */
+  text-align: center;
 }
 
 .fonts .fonts__container .font__item:nth-child(1) {
@@ -184,6 +189,17 @@ main {
   width: 100%;
   min-width: 128px;
   display: block;
+  margin-bottom: 1em;
 }
 
+.font__item .font__item-link .font__price {
+  color: var(--color-text);
+  font-size: 1rem;
+  letter-spacing: .2em;
+}
+.font__item .font__item-link .font__price span {
+  color: var(--color-text-light);
+  display: block;
+  margin-top: .5em;
+}
 
