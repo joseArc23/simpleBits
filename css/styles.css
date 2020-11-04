@@ -239,7 +239,8 @@ main {
 /* botton learn more */
 
 .main-book .main-book__info .main-book__button,
-.shop-section .shop-container__button {
+.shop-section .shop-container__button,
+.subs-section .subs-section__form .subs-section__button {
   display: inline-block;
   background-color: var(--color-text);
   color: var(--background-white);
@@ -308,7 +309,7 @@ main {
 .insta-feed__container {
   display: flex;
   max-width: 750px;
-  margin: 0 auto 4em;
+  margin: 0 auto;
 }
 
 .insta-feed__container .insta-feed__link img {
@@ -317,4 +318,38 @@ main {
 }
 
 /* --subscribe-section-- */
+
+.subs-section {
+  background-color: #f5f4f2;
+  padding-bottom: 4em;
+}
+.subs-section p {
+  padding-top: 2.5em;
+  padding-bottom: 2em;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+/* form */
+.subs-section .subs-section__form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subs-section .subs-section__form input {
+  /* display: inline-block; */
+  padding: .7em 1.2em;
+  width: 40%;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  max-width: 240px;
+  margin-right: .5em;
+}
+
+.subs-section .subs-section__form .subs-section__button {
+  width: 40%;
+  min-width: 100px;
+  max-width: 150px;
+}
 
