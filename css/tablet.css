@@ -1,0 +1,42 @@
+.header__nav.header__nav--active {
+    display: block;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__icon.header__icon--hidden {
+    display: none;
+  }
+
+  .header__nav .header__link {
+    padding: 0 10px;
+  }
+
+  header .header__logo {
+    width: 20%;
+    order: 1;
+
+  }
+  header .header__user-container {
+    padding: 0;
+    order: 3;
+
+
+  }
+  header .header__nav {
+    width: 65%;
+    order: 2;
+
+
+  }
+  .header__nav.header__nav--active ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header__nav li {
+    border-bottom: none;
+  }
