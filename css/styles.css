@@ -82,9 +82,9 @@ header .header__nav {
   padding: 15px 20px;
 }
 
-.header__nav.header__nav--active {
-/*   display: block; */
-}
+/* .header__nav.header__nav--active {
+  display: block;
+} */
 
 main {
   min-width: 320px;
@@ -195,7 +195,7 @@ main {
 
 .font__item .font__item-link .font__price {
   color: var(--color-text);
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: .2em;
 }
 .font__item .font__item-link .font__price span {
@@ -282,7 +282,7 @@ main {
   min-width: 128px;
   min-height: 209px;
   width: 45%;
-  max-width: 310px;
+  max-width: 290px;
   /* breakpoint 750px */
   text-align: center;
 }
@@ -302,6 +302,7 @@ main {
 .shop-container__item .shop-container__info span {
   color: var(--color-text-light);
   display: block;
+  font-size: 1rem;
   margin-top: .5em;
 }
 
@@ -309,13 +310,14 @@ main {
 
 .insta-feed__container {
   display: flex;
-  max-width: 750px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .insta-feed__container .insta-feed__link {
   width: calc(100vw / 6);
-  height: calc(100vw / 6);
+  height: calc(100vw / 6);  /*para 900px usar 150x150*/
+  max-height: 150px;
   overflow: hidden;
 }
 
@@ -380,6 +382,7 @@ footer .footer-nav,
   width: 50%;
   margin: 0 auto;
   justify-content: space-evenly;
+  max-width: 170px;
 }
 
 .footer-nav .footer__link-container .footer__follow-us-container li {
@@ -408,6 +411,7 @@ footer .footer-nav,
 .footer__link-container ul li,
 .footer-shop ul li {
   padding-bottom: .5em;
+  list-style: none;
 }
 
 .footer-nav .footer__link-container .footer__link-item,
