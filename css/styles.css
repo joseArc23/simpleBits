@@ -312,6 +312,12 @@ main {
   margin: 0 auto;
 }
 
+.insta-feed__container .insta-feed__link {
+  width: calc(100vw / 6);
+  height: calc(100vw / 6);
+  overflow: hidden;
+}
+
 .insta-feed__container .insta-feed__link img {
   width: 100%;
   display: block;
