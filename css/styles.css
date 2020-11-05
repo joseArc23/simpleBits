@@ -176,7 +176,7 @@ main {
   min-width: 128px;
   min-height: 209px;
   width: 45%;
-  max-width: 272px;
+  /* max-width: 272px; */
   /* breakpoint 750px */
   text-align: center;
 }
@@ -310,14 +310,14 @@ main {
 
 .insta-feed__container {
   display: flex;
-  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .insta-feed__container .insta-feed__link {
   width: calc(100vw / 6);
   height: calc(100vw / 6);  /*para 900px usar 150x150*/
-  max-height: 150px;
+  /* max-height: 150px; */
   overflow: hidden;
 }
 
