@@ -91,9 +91,13 @@ main {
 }
 
 /* --slider-- */
+.main-slider {
+  margin-bottom: 3em;
+}
 
 .main-slider-container {
   position: relative;
+
 }
 
 
@@ -120,11 +124,11 @@ main {
 .slider__next {
   right: 0;
 }
-
+/* 
 .slider__prev:hover, .slider__next:hover {
   background-color: rgba(51, 51, 51, .5);
 }
-
+ */
 .main-slider__buttons {
   text-align: center;
 }
@@ -138,7 +142,7 @@ main {
   cursor: pointer;
 }
 
-.active {
+.main-slider__buttons .dot.active {
   background-color: #717171;
 }
 
